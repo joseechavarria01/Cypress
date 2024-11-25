@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "cypress": "^13.14.2",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "typescript": "^5.6.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/cucumber"
+  },
+  "dependencies": {
+    "Cypress": "npm:cypress@^13.16.0"
+  }
+}
